@@ -1,18 +1,3 @@
-Steps:
-
-- Setup and routing
-- Displaying your blog feed with filters
-- Displaying individual posts with comments
-- Creating a custom Vue plugin to keep your data decoupled
-
-The result will be a JAMstack-ready, truly decoupled Vue blog you can plug to any data source—more on that later.
-
-> [Read full tutorial on the blog](https://snipcart.com/blog/vuejs-blog-demo)
-
-> [See live demo hosted on Netlify](https://vue-blog-demo.netlify.com/)
-
-Enjoy folks!
-
 ## Build Setup
 
 ``` bash
