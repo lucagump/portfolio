@@ -16,7 +16,7 @@
               </time>
 
               <router-link class="preview__tag"
-                :to="`/by/${kebabify(post.tag)}`"
+                :to="`/topic/${kebabify(post.tag)}`"
                 @click.native="scrollTo(0, 220, scrollDelay)">
                 {{ post.tag }}
               </router-link>

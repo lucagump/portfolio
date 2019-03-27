@@ -13,7 +13,7 @@ export default new Router({
         name: 'feed',
         component: Blog
     }, {
-        path: '/by/:tag',
+        path: '/topic/:tag',
         name: 'tag',
         props: true,
         component: Blog
