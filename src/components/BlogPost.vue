@@ -4,8 +4,8 @@
       <header class="post__header">
         <h2 class="post__title">{{ title }}</h2>
 
-        <h3 class="post__meta">by <router-link class="post__author"
-          :to="`/by/${kebabify(author)}`">{{ author }}</router-link>
+        <h3 class="post__meta">by <router-link class="post__tag"
+          :to="`/by/${kebabify(tag)}`">{{ tag }}</router-link>
           <span class="post__sep"></span>
           <time>{{ prettyDate(published) }}</time>
         </h3>
@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       title: '',
-      author: '',
+      tag: '',
       content: '',
       published: '',
       description: '',

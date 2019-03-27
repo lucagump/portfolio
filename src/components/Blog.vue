@@ -19,7 +19,7 @@ export default {
   resource: 'Blog',
   props: {
     post: String,
-    author: String
+    tag: String
   },
 
   data() {
@@ -28,7 +28,7 @@ export default {
       title: '',
       labels: {
         post: '',
-        author: ''
+        tag: ''
       }
     }
   },
@@ -41,7 +41,7 @@ export default {
       let filters = {}
 
       if (this.post) filters.post = this.post
-      if (this.author) filters.author = this.author
+      if (this.tag) filters.tag = this.tag
 
       return filters
     }

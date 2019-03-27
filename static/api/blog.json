@@ -1,7 +1,7 @@
 {
-  "results": [{
-    "title": "In Plain Vue",
-    "post_label": "Exit reading mode",
-    "author_label": "View all authors"
-  }]
+    "results": [{
+        "title": "Luca Martinelli",
+        "post_label": "Exit reading mode",
+        "tag_label": "View All"
+    }]
 }

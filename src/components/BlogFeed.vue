@@ -15,10 +15,10 @@
                 {{ prettyDate(post.published) }}
               </time>
 
-              <router-link class="preview__author"
-                :to="`/by/${kebabify(post.author)}`"
+              <router-link class="preview__tag"
+                :to="`/by/${kebabify(post.tag)}`"
                 @click.native="scrollTo(0, 220, scrollDelay)">
-                {{ post.author }}
+                {{ post.tag }}
               </router-link>
             </div>
           </figcaption>
@@ -58,7 +58,7 @@ export default {
     feed() {
       const filterBy = {
         post: (filter, { id }) => filter === id,
-        author: (filter, { author }) => filter === this.kebabify(author)
+        tag: (filter, { tag }) => filter === this.kebabify(tag)
       }
 
       if (!Object.keys(this.filters).length) return this.posts
