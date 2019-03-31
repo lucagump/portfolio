@@ -3,7 +3,7 @@
     <blog-nav :content="content" :filters="filters" :navs="navs"/>
     <blog-feed :filters="filters"/>
     <blog-post :post="post"/>
-    <blog-footer/>
+    <!-- <blog-footer/> -->
   </main>
 </template>
 

@@ -1,7 +1,7 @@
 {
-    "name": "Vue Proto",
-    "icons": [
-        {
+    "name": "Luca Martinelli",
+    "short_name": "Portfolio",
+    "icons": [{
             "src": "/static/icons/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
@@ -12,7 +12,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#408c71",
-    "background_color": "#408c71",
+    "theme_color": "#fcfdff",
+    "background_color": "#fcfdff",
     "display": "standalone"
 }
