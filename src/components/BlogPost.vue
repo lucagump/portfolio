@@ -14,11 +14,6 @@
       </header>
 
       <section class="post__body rte" v-html="content"></section>
-
-      <footer class="post__footer">
-        <vue-disqus v-if="commentsReady" shortname="vue-blog-demo"
-          :key="post" :identifier="post" :url="`https://vue-blog-demo.netlify.com/read/${post}`"/>
-      </footer>
     </article>
   </transition>
 </template>
